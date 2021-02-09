@@ -1,0 +1,248 @@
+/*Colors I would like to use on this website; background-color: #161a25, #0f1217, #336666, #77bcf0,  */
+    
+
+.aboutList{
+    border: groove;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding: 0px;
+  border-style: groove;
+  border-width: 5px;
+  border-color: #eaeaea;
+}
+.center2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding: 0px;
+  border-color: #eaeaea;
+}
+
+header{
+    display: inline-flex;
+    flex: 1;
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background: #161a25;
+}
+.HolyGrail {
+  background: #161a25;
+  font-size: 100%;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-family: Arial;
+}
+
+.HolyGrail-body {
+  font-size: 100%;
+  display: inline-flex;
+  flex: 0;
+  text-align: justify;
+}
+
+.HolyGrail-body2 {
+  background: #161a25;
+  font-size: 100%;
+  display: flex;
+  flex: 1;
+  text-align: left;
+}
+
+Styling three equal-height columns with a fluid center and fixed-width sidebars is just as easy:
+
+.HolyGrail-content {
+  flex-basis: 100%;
+  text-align: center;
+  display: inline-flex; 
+  background: #161a25;
+}
+
+.HolyGrail-nav, .HolyGrail-ads {
+  /* 12em is the width of the columns */
+  flex-basis: 79%;
+  background: #161a25;
+  font-size: 100%
+}
+
+.HolyGrail-nav {
+  /* put the nav on the left */
+  order: -1;
+  padding: 0px;
+}
+
+footer{
+    color: #eaeaea;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+  list-style-type: circle;
+  margin: 0px 0px;
+  padding:  0px 0px;
+  overflow: hidden;
+  text-align: center;
+}
+
+#ul {
+    color: #eaeaea;
+    text-indent: 0;
+    padding: 20px;
+    border-style: groove;
+    border-width: 5px;
+    border-color: #eaeaea;
+    }
+
+/* This is for the navigation boxes on the website */
+
+
+li {
+  display: inline-flex;
+  color: #eaeaea;
+  background-color: #161a25;
+  list-style-type: circle;  
+  font-size: 120%;
+}
+
+li a {
+  display: inline-block;
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 1em 2em;
+  margin: 0em 0em;
+  text-decoration: none;
+  border-top-style: solid;
+  border-left-style: ridge;
+  border-right-style: ridge;
+  border-right-color: black;
+  border-bottom-style: ridge;
+  border-bottom-color: black;
+}
+
+p{
+    color: #77bcf0;
+    text-indent: 0;
+    padding: 20px;
+    border-style: groove;
+    border-width: 5px;
+    border-color: #eaeaea;
+    background-color: #342525;
+}
+
+/* This is for the link color on hover */
+
+
+li a:hover {
+  background-color: #336666;
+}
+a:link {
+  color: #eaeaea;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #eaeaea;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active {
+  color: #eaeaea;
+  background-color: #151E25;
+  text-decoration: none; 
+}
+
+/*Colors I would like to use on this website; #2d132c, #801336, #ee4540, #c72c41 */
+
+table, th, td {
+  border: none;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 25px;
+  font-size: 100%;
+}
+
+hr{
+    border:
+}
+.inline-div {
+  display: block;
+  text-align: left;
+  padding: 20px;
+   
+}
+.inline-div1 {
+  display: block;
+  text-align: center;
+  padding: 20px;
+  background-color: #151E25;
+  border-style: groove;
+  border-width: 5px;
+  border-color: #eaeaea;
+  text-align: left;
+}
+h1{
+  color: #77bcf0;
+  margin-left: 0px;
+  text-indent: 0px;
+}
+
+h2{
+    color: #77bcf0;
+    background: #0f1217;
+    border-style: groove;
+    border-width: 5px;
+    border-color: #eaeaea;
+    padding: 20px;
+}
+
+h3{
+    color: #77bcf0;
+    margin-left: 0px;
+    text-indent: 0px;
+    
+}
+h4
+{
+  display: inline-block;
+  
+}
+h5 {
+    color: #2698ef;
+    background: #0f1217;
+    margin-left: 0px;
+    text-indent: 0px;
+    border-style: groove;
+    border-width: 5px;
+    border-color: #eaeaea;
+    background-color: #342525;
+    padding: 20px;
+}
+h6 {
+    color: #eaeaea;
+    background: #252a34;
+    margin-left: 0px;
+    text-indent: 0px;
+    border-style: groove;
+    border-width: 5px;
+    border-color: #eaeaea;
+    background-color: #342525;
+    padding: 20px;
+}
+.hover11 figure img {
+	opacity: .25;
+	-webkit-transition: .1s ease-in-out;
+	transition: .1s ease-in-out;
+}
+.hover11 figure:hover img {
+	opacity: 1;
+}
